@@ -1,0 +1,38 @@
+{
+  "driver_id": "dm_cdp_telnet_remote",
+  "version": "0.0.1",
+  "min_core_api": "0.20.0",
+  "name": { "en": "Denon/Marantz CD player remote" },
+  "icon": "uc:integration",
+  "description": {
+    "en": "Allows controlling Denon/Marantz CD players over the telnet interface."
+  },
+  "port": 9080,
+  "developer": {
+    "name": "Stanislav Kljuhhin",
+    "email": "crzcrz@me.com",
+    "url": "https://github.com/crzcrz"
+  },
+  "home_page": "https://github.com/crzcrz/uc2-dm-cdp-integration",
+  "setup_data_schema": {
+    "title": {
+      "en": "Integration setup"
+    },
+    "settings": [
+      {
+        "id": "info",
+        "label": {
+          "en": "Setup process"
+        },
+        "field": {
+          "label": {
+            "value": {
+              "en": "The integration will discover your Denon or Marantz CDPs on your network."
+            }
+          }
+        }
+      }
+    ]
+  },
+  "release_date": "2024-01-01"
+}

@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+upnpy = "*"
+ucapi = "*"
+
+[dev-packages]
+black = "*"
+isort = "*"
+jedi = "*"
+pyflakes = "*"
+pylint = "*"
+pyls-isort = "*"
+python-lsp-black = "*"
+rope = "*"
+mypy = "*"
+python-lsp-server = {extras = [ "rope", "pylint",]}
+pylsp-mypy = "*"
+pyright = "*"
+
+[requires]
+python_version = "3"
